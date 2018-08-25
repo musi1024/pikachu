@@ -1,9 +1,9 @@
 !function() { 
     var css1 = `
     /* 
-    * 面试官你好，我是XXX
-    * 只用文字作做我介绍太单调了
-    * 我就用代码来介绍吧
+    * Hello 
+    * 今天来画个皮卡丘
+    * 代码的过程也给你看看吧
     * 首先准备一些样式
     */
     * {
@@ -11,7 +11,6 @@
     }
     /* 
     * 先给背景换个色吧
-    * 字也换个颜色
     */
     html {
         color: rgb( 222,222,222 ); 
@@ -52,7 +51,7 @@
         left: 0;
     }
     /*
-    * 好了，开始要写我的简历了，来张白纸
+    * 好了，开始画了，先来张白纸
     */
     #paper {
         display: block;
@@ -63,7 +62,10 @@
         height: 100%;
         border-radius: 15px;
         padding: 20% 20% 20% 30%;
-    }    
+    }
+    /*
+    * 先来画个头
+    */    
     .head {
         position: relative;
         margin: 0 auto;
@@ -97,7 +99,10 @@
         border-radius: 50%;
         border: medium none;
         z-index: 2;
-    }            
+    }
+    /*
+    * 再来两只眼睛
+    */            
     .eye {
         position: absolute;
         height: 42px;
@@ -112,7 +117,10 @@
     }    
     .eye-right {
         right: 36px;
-    }    
+    }
+    /*
+    * 加上眼白
+    */    
     .iris {
         position: absolute;
         height: 16px;
@@ -141,7 +149,10 @@
         right: 7px;
         top: 32px;
         transform: rotate(-25deg);
-    }       
+    }
+    /*
+    * 来个鼻子
+    */       
     .nose {
         position: relative;
         height: 16px;
@@ -151,7 +162,10 @@
         border-radius: 30%;
         background: #0c0c0c;
         transform: rotate(45deg);
-    }    
+    }
+    /*
+    * 两个大大的红脸颊
+    */    
     .cheek {
         background-color: #EC0000;
         border: 2px solid #000000;
@@ -166,7 +180,10 @@
     }   
     .cheek-right {
         right: 5px;
-    }       
+    }
+    /*
+    * 波浪的嘴巴
+    */       
     .mouth {
         position: absolute;
         border: solid 2px #000000;
@@ -191,7 +208,11 @@
         width: 30px;
         background-color: #FFFF00;
         z-index: 2;
-    }    
+    }
+    /*
+    * 好了，头部画好了
+    * 不对，差两个耳朵
+    */    
     .ear {
         position: absolute;
         background: none repeat scroll 0 0   #FFFF00;
@@ -238,7 +259,10 @@
         top: 54px;
         width: 65px;
         transform: rotate(-15deg);
-    }    
+    }
+    /*
+    * 皮卡丘胖胖的身体
+    */    
     .hold-body {
         background-color: #FFFF00;
         border: 4px solid #000000;
@@ -249,7 +273,10 @@
         top: -70px;
         width: 225px;
         z-index: 2;
-    }    
+    } 
+    /*
+    * 两只小手
+    */   
     .hand {
         border: 2px solid #000000;   
         height: 65px;    
@@ -287,7 +314,10 @@
         top: -3px;
         width: 50px;
         z-index: 2; 
-    }   
+    }
+    /*
+    * 两只短腿
+    */   
     .foot {
         position: absolute;
         border: 3px solid #000000;
@@ -305,7 +335,10 @@
         border-radius: 20px 65px 15px 10px;
         bottom: 17px;
         right: 0px;
-    }      
+    }
+    /*
+    * 最后，剩下尾巴了
+    */      
     .tail {
         position: absolute;
         border: 3px solid #000000;
@@ -372,6 +405,9 @@
         z-index: 0;
         transform: skewX(41deg);
     }
+    /*
+    * 好啦，去吧，皮卡丘
+    */
     `
 
     function writeCss(code, fn) {
