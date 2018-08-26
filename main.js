@@ -358,7 +358,7 @@
     }    
     .tail2 {
         z-index: 2;
-        bottom: 105px;
+        bottom: 107px;
         height: 23px;    
         right: 22px;
         width: 21px;
@@ -366,9 +366,9 @@
         transform: skewX(-30deg);
     }
     .tail3 {
-        bottom: 105px;
-        height: 70px;
-        right: 24px;
+        bottom: 107px;
+        height: 69px;
+        right: 26px;
         width: 29px;
         z-index: 1;
         transform: skewX(-30deg);
@@ -377,9 +377,9 @@
     }
     .tail4 {   
         border-radius: 0 0 0 6px;
-        bottom: 146px;
+        bottom: 147px;
         height: 29px;
-        right: 38px;
+        right: 39px;
         width: 63px;
         z-index: 1;
         border-right: none;
@@ -388,7 +388,7 @@
     .tail5 {   
         border-bottom: medium none;
         border-top: none;
-        bottom: 172px;
+        bottom: 173px;
         height: 51px;
         right: 28px;
         width: 52px;
